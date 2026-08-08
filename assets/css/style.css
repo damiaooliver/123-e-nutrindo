@@ -910,6 +910,41 @@ section {
     }
 }
 
+/* ---------- Ebooks ---------- */
+.ebook-panel {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 28px 30px;
+}
+
+.ebook-panel-text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.ebook-panel-text svg {
+    flex: none;
+}
+
+.ebook-panel-text strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 17px;
+}
+
+.ebook-panel-text span {
+    color: var(--ink-soft);
+    font-size: 14px;
+}
+
 /* ---------- Contato ---------- */
 .contato-grid {
     display: grid;
